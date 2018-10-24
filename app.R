@@ -1,10 +1,12 @@
 
-
+library(tidytext)
+library(tidyverse)
 library(shiny)
 library(sentimentr)
 library(wordcloud)
 library(reshape2)
 library(googleVis)
+library(dplyr)
 
 ui <- fluidPage( 
   
